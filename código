@@ -1,0 +1,20 @@
+# SdRocha-Sorteador
+
+print('-*-='*5)
+print('Sorteador de Nomes em Python')
+print('-*-='*5)
+
+
+import random
+n1 = str(input('Concorrente do mês: '))
+n2 = str(input('Concorrente do mês: '))
+n3 = str(input('Concorrente do mês: '))
+n4 = str(input('Concorrente do mês: '))
+lista = [ n1, n2, n3, n4]
+escolhido = random.choice(lista)
+print('O sorteado do mês é {}' .format(escolhido))
+
+print('-*-='*16)
+print('InRobot Dev.Mobile/Web!')
+print('Desenvolvimento de Apps Mobile e Web ,Facilitando seu dia-a-dia')
+print('-*-='*16)
